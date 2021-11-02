@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
+
+*{font-family: 'Sora', sans-serif;}
+
+body{background-color: #F8F8F8;}
+
+.hero-illustration,.recruit-illustration{
+    width: 150%; 
+    margin-left: -20%;
+}
+
+.hired-illustraion{
+    width: 150%; 
+    margin-left: -35%;
+}
+
+.wrap-text{padding-right: 170px;}
+
+.caption{
+    font-size: 12px;
+}
+
+.applicant{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    outline: #FFFFFF solid 3px;
+    object-fit: cover;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: -12px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:768px){
+    .wrap-text{padding: 0;}
+    .hero-illustration, 
+    .hired-illustraion,
+    .recruit-illustration{
+        width: 100%; 
+        margin: 0;
+    }
+}
+
+.bg-primary{background: #1089FF !important;}
+
+.bg-primary-opacity{
+    color: #1089FF;
+    background: rgba(16, 137, 255, 0.1);
+}
+
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #1089FF !important;
+    border: 2px solid #1089FF;
+}
+
+.btn-outline-primary{
+    color: #1089FF;
+    border: 2px solid #1089FF;
+}
+
+.btn-outline-primary:hover{
+    color: #FFFFFF;
+    background-color: #1089FF;
+    border: 2px solid #1089FF;
+}
+
+.card{
+    border: none;
+}
+
+.card-footer{
+    padding: 24px 0 0;
+    background: none;
+    border-top: 1px solid #F5F5F5;
+}
+
+.btn-md{
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    font-weight: 600;
+    padding: 11px 24px;
+}
+
+.btn-lg{
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    font-weight: 600;
+    padding: 15px 24px;
+}
